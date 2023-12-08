@@ -8,6 +8,7 @@ The original interest rate dataset, along with each feature in a separate csv fi
 
 The python module `feature_extraction.py` performs PCA on both datasets and saves the transformed data in separate files.
 
-- `interest_rate.py`:  Trains an LTC, LSTM, or CT-RNN model on either the original interest rate dataset, or the PCA transformed dataset. To specify the data, the desired datapath is set before training, and the variable `pca` is set to either `True` or `False`.
+### Training and evaluation
+- `interest_rate.py`:  Trains an LTC, LSTM, or CT-RNN model on either the original interest rate dataset, or the PCA transformed dataset. To specify the data, the desired datapath is set before training, and the variable `pca` is set to either `True` or `False`. 
 - `energy.py`: Trains an LTC, LSTM, or CT-RNN model on either the original energy consumption dataset, or the PCA transformed dataset. To specify the data, the function that loads the desired dataset is called within the `EnergyData` class, and the corresponding input size is set in the `EnergyModel` class.
 - `baseline_model.py`: Trains a linear regression model on any one of the available datasets. To specify the data to use, the path to the desired data is set before calling the corresponding training function.
