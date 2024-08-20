@@ -1,7 +1,7 @@
 ### Economic Predictions Using Liquid Time-Constant Neural Networks
 
 ### About
-This project uses Liquid Time-Constant neural networks to train models that predict interest rates and industrial energy consumption. The code also includes the possibility to train LSTM, CT-RNN and linear regression models on the same datasets for comparison. 
+This project uses Liquid Time-Constant neural networks to train models that predict interest rates and industrial energy consumption. The code also includes the possibility to train LSTM, CT-RNN and linear regression models on the same datasets for comparison. Link to report: https://drive.google.com/file/d/11_fMoC7K8EmdSHRp8zyE3LGvY0t9oeSb/view
 
 ### Data preparation
 The original interest rate dataset, along with each feature in a separate csv file, is in `data/interest_rate_data`. The original energy consumption dataset  has a few separate csv files that are combined in training, and stored in `data/energy_data`. The function `prepare_data.py` in `experiments_with_ltcs` was used to combine the features of the interest rate dataset. 
